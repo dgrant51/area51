@@ -1,5 +1,5 @@
 name= "Area 51 Build"
-url="https://www.dropbox.com/s/n97weozsw3w3daz/kodibuild.zip?dl=0"
+url="https://www.dropbox.com/s/n97weozsw3w3daz/kodibuild.zip?dl=1"
 img="https://dgrant51.github.io/area51/Build%20Resources/icon.png"
 fanart="https://dgrant51.github.io/area51/Build%20Resources/fanart.jpg"
 description="Working addons and repositories. Hummingbird and WN2 may or may not work but are the best options. The rest are set up to sync with your library. To add to library pull up the context menu and click add to library."
