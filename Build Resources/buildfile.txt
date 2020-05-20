@@ -5,7 +5,7 @@ zip="https://dgrant51.github.io/area51/build/plugin.program.area51wiz.zip"
 
 name="Area 51 Build"
 version="1.0"
-url="https://www.dropbox.com/s/n97weozsw3w3daz/kodibuild.zip?dl=1"
+url="https://www.dropbox.com/s/ji1mkvqi39t3drk/area51.zip?dl=1"
 gui=""
 kodi="18.6"
 theme="http://"
@@ -13,7 +13,7 @@ icon="https://dgrant51.github.io/area51/Build%20Resources/icon.png"
 fanart="https://dgrant51.github.io/area51/Build%20Resources/fanart.jpg"
 preview="http://"
 adult="No"
-description="Working addons and repositories. Hummingbird and WN2 may or may not work but are the best options. The rest are set up to sync with your library. To add to library pull up the context menu and click add to library."
+description="Working addons and repositories. Updated 19-5-2020"
 
 
 
