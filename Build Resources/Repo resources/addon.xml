@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.area51wiz" name="[COLOR White]Area51[/COLOR][COLOR red]Wizard[/COLOR]" version="1.0.0" provider-name="Area51">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR white]Area51[/COLOR][COLOR red]Wizard[/COLOR]</summary>
+        <description lang="en">[COLOR white]Area51[/COLOR][COLOR red]Wizard[/COLOR] installs area51 build and runs maintenance</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.area51repo" name="Area 51 Repo" version="1.0.0" provider-name="dgrant51">
+	<extension point="xbmc.addon.repository" name="Name you want to appear in Kodi">
+		<dir>
+			<info compressed="false">http://**Yourrepourl***/zips/addons.xml</info>
+			<checksum>http://**Yourrepourl***/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://dgrant51.github.io/area51/repo</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+      	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<genre></genre>
+	</extension>
+</addon>
+</addons>
