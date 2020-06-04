@@ -5,7 +5,7 @@ zip="https://dgrant51.github.io/area51/build/plugin.program.area51wiz.zip"
 
 name="Area 51 Build"
 version="1.0"
-url="https://www.dropbox.com/s/huktsnv08ueh0g0/area51kodi.zip?dl=1"
+url="https://www.dropbox.com/s/etdlwjimnhdd56g/area51kodi.zip?dl=1"
 minor="http://"
 gui="http://"
 kodi="18.7"
@@ -14,8 +14,8 @@ icon="http://dgrant51.github.io/area51/Build%20Resources/icon.png"
 fanart="http://dgrant51.github.io/area51/Build%20Resources/fanart.jpg"
 preview="https://"
 adult="no"
-info="http://your.info.url"
-description="Working addons and repositories. Updated 22-5-2020"
+info="http://"
+description="Working addons and repositories. Updated 4-6-2020"
 
 
 
